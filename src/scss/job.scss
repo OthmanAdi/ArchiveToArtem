@@ -1,4 +1,85 @@
-.job-container{
+.job-container {
   width: 70vw;
   background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  border-radius: 10px;
+  margin: 1.5rem;
+  position: relative;
+  box-shadow: 0 4px 6px 4px rgba(95, 164, 164, 0.5);
+
+  @media only screen and (max-width: 400px) {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80vw;
+    padding-bottom: 2rem;
+    margin-bottom: 2rem;
+    //background-color: yellow;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    padding-right: 1.5rem;
+    @media only screen and (max-width: 375px){
+      position: absolute;
+      top: -2rem;
+      img{
+        width: 4rem;
+        height: auto;
+      }
+    }
+  }
+  .part1{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    @media only screen and (max-width: 375px) {
+      flex-grow: 0;
+      padding: 1.5rem;
+    }
+    .company{
+      .cname{
+        font-weight: 800;
+        color: var(--primary-color);
+        margin-left: 1rem;
+      }
+      .new, .featured{
+        color:#fff;
+        background-color: var(--primary-color);
+        border-radius: 1rem;
+        padding: 1rem;
+        font-size: 1rem;
+        margin-right: 1rem;
+        font-weight: 800;
+        text-transform: uppercase;
+      }
+      .featured{
+        background-color: var(--very-dark-greyish);
+      }
+    }
+    .position{
+      font-weight: 800;
+      font-size: 1rem;
+      display: inline-block;
+      padding: 1rem;
+      cursor: pointer;
+      &:hover{
+        color: var(--primary-color);
+      }
+    }
+    .details{
+      color: var(--dark-greyish);
+    }
+  }
+  .part2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    @media only screen and (max-width: 375px){
+      border-top: 1px solid var(--primary-color);
+      color: #fff;
+    }
+  }
 }
