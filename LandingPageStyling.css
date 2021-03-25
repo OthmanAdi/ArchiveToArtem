@@ -1,0 +1,22 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.btn{
+margin-top: 50vh ;
+}
+
+.ShowMeTextFile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+textarea{
+    margin-top: 80vh;
+    width: 40rem;
+}
+
+
+
