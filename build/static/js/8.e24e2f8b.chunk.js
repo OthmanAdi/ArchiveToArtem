@@ -1,2 +1,0 @@
-(this["webpackJsonpreact-job-listing-website"]=this["webpackJsonpreact-job-listing-website"]||[]).push([[8],{28:function(e,s,t){"use strict";t.r(s),s.default=t.p+"static/media/insure.4d535e7e.svg"}}]);
-//# sourceMappingURL=8.e24e2f8b.chunk.js.map

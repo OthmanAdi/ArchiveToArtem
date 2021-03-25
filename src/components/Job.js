@@ -58,13 +58,13 @@ const Job = (props) => {
         </div>
       </div>
 
-      <div className="part2">
-        {keywords.map((key, id) => (
-          <span onClick={() => props.setkeywords(key)} key={id}>
-            {key}
-          </span>
-        ))}
-      </div>
+      {/*<div className="part2">*/}
+      {/*  {keywords.map((key, id) => (*/}
+      {/*    <span onClick={() => props.setkeywords(key)} key={id}>*/}
+      {/*      {key}*/}
+      {/*    </span>*/}
+      {/*  ))}*/}
+      {/*</div>*/}
     </div>
   );
 };
